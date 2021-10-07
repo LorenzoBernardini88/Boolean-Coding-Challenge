@@ -1,0 +1,71 @@
+/* SELETTORE{
+  proprietà: valore;
+  proprietà: valore;
+} */
+body{
+  background-image: url(background.jpg);
+  background-size: cover;
+  padding: 50px 100px;
+  font-family: 'Montserrat', sans-serif;
+  color: white;
+}
+
+#carica1{
+  background-color: yellow;
+  width: 250px;
+  height: 20px;
+  border-radius: 4px;
+}
+
+#carica2{
+  background-color: green;
+  width: 400px;
+  height: 20px;
+  border-radius: 4px;
+}
+
+#carica3{
+  background-color: red;
+  width: 120px;
+  height: 20px;
+  border-radius: 4px;
+}
+
+.contenitore{
+width: 600px;
+margin:auto;
+text-align: center;
+background-color: rgba(0, 0, 0, 0.5);
+padding: 50px 100px;
+border-radius: 20px;
+}
+
+.menu{
+  background-color: #00FA23;
+  padding: 5px;
+}
+
+.logo {
+  width: 200px
+}
+
+.logo-text{
+  color: #00FA23;
+}
+
+.monopattino{
+  text-align: left;
+  margin-top: 20px;
+}
+
+*{
+  margin: 3px;
+}
+
+div > span, p {
+  font-size: 12px;
+}
+
+input[type ="checkbox"]{
+width: 10px;
+}
